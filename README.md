@@ -4,6 +4,7 @@ Writing DSA using Modern C++
 
 ## RECENT CHANGES
 ### SINGLY LINKED LIST
+- Added `yeet()` method
 - Separated Class Method Definitions
 - Added `pop_back(),pop_front(), search(),replace()` methods
 - Eradicated `find()` function 
@@ -11,14 +12,16 @@ Writing DSA using Modern C++
 
 ## TODO
 ### IN SINGLY LINKED LIST
-- `erase() , reverse()` method
+- ` reverse()` method
+- Possible Error Handling
 - Optimization 
-- Class template Structure Improvement.
 
 
 
 
-  ArcShahi >_<
+
+
+ > ArcShahi >_<
 
 
 
