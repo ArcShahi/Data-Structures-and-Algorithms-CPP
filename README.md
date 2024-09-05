@@ -1,16 +1,17 @@
 # MODERN C++ DSA 
 
-# CHANGE LOG V1.2 📑
-## SINGLY LINKED LIST
+Writing DSA using Modern C++
 
-- Added `front() , back() , clear(), ssize()` methods
-- updated `display()` method
-- Added Exception
+## RECENT CHANGES
+### SINGLY LINKED LIST
+- Added `pop_back(),pop_front(), search(), find(),replace()` methods
 
 
-# TODO
-## IN SINGLY LINKED LIST
-- `pop_back(),pop_front(), erase() , search(), replace()` methods
+## TODO
+### IN SINGLY LINKED LIST
+- fixing return issue with Find  method
+- Optimization 
+- Class template Structure Improvement.
 
 
 
