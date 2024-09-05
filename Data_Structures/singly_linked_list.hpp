@@ -193,25 +193,17 @@ size_t Linked_List<type>::ssize()
 template<typename type>
 type& Linked_List<type>::back() const
 {
-	if (isEmpty())
-	{
-		return tail->next->data;
-	}
-
 	return tail->data;
 }
 
+// Invokes UB when called on Empty list
 template<typename type>
 type& Linked_List<type>::front() const
 {
-
-	if (isEmpty())
-	{
-		return tail->next->data;
-	}
 	return head->data;
 }
 
+// Invokes UB when called on Empty list
 template<typename type>
 void Linked_List<type>::clear()
 {
@@ -267,7 +259,7 @@ void Linked_List<type>::yeet(type value)
 	--size;
 }
 
-// Checks Wheter an Value exists in List
+// Checks Whether an Value exists in List
 template<typename type>
 bool Linked_List<type>::search(const type value)const
 {
