@@ -190,6 +190,7 @@ size_t Linked_List<type>::ssize()
 	return size;
 }
 
+// Invokes UB when called on Empty list
 template<typename type>
 type& Linked_List<type>::back() const
 {
@@ -203,7 +204,7 @@ type& Linked_List<type>::front() const
 	return head->data;
 }
 
-// Invokes UB when called on Empty list
+
 template<typename type>
 void Linked_List<type>::clear()
 {
