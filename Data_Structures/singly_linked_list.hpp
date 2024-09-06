@@ -39,7 +39,7 @@ public:
 
 	void yeet(type value);
 
-	// void erase(type value );
+	void reverse();
 
 	bool search(const type value)const;
 
@@ -179,7 +179,7 @@ void Linked_List<type>::display() const
 	}
 	for (auto itr = head; itr != nullptr; itr = itr->next)
 	{
-		std::cout << itr->data << ' ';
+		std::cout << itr->data << "->";
 	}
 	std::cout << '\n';
 }
@@ -190,7 +190,6 @@ size_t Linked_List<type>::ssize()
 	return size;
 }
 
-// Invokes UB when called on Empty list
 template<typename type>
 type& Linked_List<type>::back() const
 {
@@ -204,7 +203,7 @@ type& Linked_List<type>::front() const
 	return head->data;
 }
 
-
+// Invokes UB when called on Empty list
 template<typename type>
 void Linked_List<type>::clear()
 {
@@ -258,6 +257,28 @@ void Linked_List<type>::yeet(type value)
 
 
 	--size;
+}
+
+
+// Using Two-Pointer Approach Time O(N) , Space O(1)
+template<typename type>
+void Linked_List<type>::reverse()
+{
+
+	std::shared_ptr<Node> pvs = nullptr;
+
+	auto itr{ head };
+
+	while (itr != nullptr)
+	{
+		auto temp = itr->next;
+		itr->next = pvs;
+		pvs = itr;
+		itr = temp;
+
+	}
+	head = pvs;
+
 }
 
 // Checks Whether an Value exists in List
