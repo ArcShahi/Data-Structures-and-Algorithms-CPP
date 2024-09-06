@@ -4,21 +4,20 @@ Writing DSA using Modern C++
 
 ## RECENT CHANGES
 ### SINGLY LINKED LIST
-- Added `yeet()` method
-- Separated Class Method Definitions
-- Added `pop_back(),pop_front(), search(),replace()` methods
+- Added `reverse()`, `yeet()` method
+- Updated `display()` method
 - Eradicated `find()` function 
 
 
 ## TODO
 ### IN SINGLY LINKED LIST
-- ` reverse()` method
 - Possible Error Handling
 - Optimization 
 
 
 
-
+>[!note]
+This is nowhere near complete, I'm just adding what I'm learning.
 
 
  > ArcShahi >_<
