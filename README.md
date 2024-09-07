@@ -17,6 +17,8 @@ Don't use `using namespace std;` for the time being, will cause LINKING ERROR
 
 ## TODO
 
+- Putting all Class into Namespace
+
 ## IN DOUBLE LINKED LIST
 - Various Methods
 - Optimization
