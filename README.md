@@ -1,7 +1,7 @@
 # MODERN C++ DSA 
 
 Writing DSA using Modern C++
->[!error] Warning
+>[!CAUTION]
 Don't use `using namespace std;` , will cause LINKING ERROR`
 
 ## RECENT CHANGES
