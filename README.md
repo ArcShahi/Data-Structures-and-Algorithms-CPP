@@ -2,7 +2,7 @@
 
 Writing DSA using Modern C++
 >[!CAUTION]
-Don't use `using namespace std;` , will cause LINKING ERROR`
+Don't use `using namespace std;` for the time being, will cause LINKING ERROR
 
 ## RECENT CHANGES
 - Added Double Linked List ( `List.hpp` )
