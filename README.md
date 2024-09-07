@@ -1,10 +1,10 @@
 # MODERN C++ DSA 
 
 Writing DSA using Modern C++
->[!CAUTION]
-Don't use `using namespace std;` for the time being, will cause LINKING ERROR
+
 
 ## RECENT CHANGES
+- Moved classes inside `xe` namespace
 - Added Double Linked List ( `List.hpp` )
 - Renamed `singly_linked_list.hpp` to `Forward_list.hpp` 
 
